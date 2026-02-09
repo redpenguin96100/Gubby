@@ -1,2 +1,2 @@
 # Gubby
-update stuff
+scripts that update and fix stuff on ur pi
