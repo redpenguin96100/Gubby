@@ -1,0 +1,1 @@
+# Content of aiwsolus.sh
