@@ -1,0 +1,34 @@
+you just like do the thing and then yippy
+
+
+run "nano .bash_aliases" in ur home directory (ur terminal should open to there automaticly)
+
+then at the bottom add "alias gubby=/path/to/this/folder/gubby.sh"
+
+make sure you go from the root dir.  if its in ur home folder it would be 
+/home/[username]/gubby_scripts/gubby.sh
+
+once all of that is typed in press control o then enter then control x 
+
+then open a new terminal or run "source .bash_aliases"
+
+then run "gubby"
+if it says command not found then you might have a problem
+let me break it down 
+   _O/                   ,
+     \                  /           \O_
+     /\_             `\_\        ,/\/
+     \  `       ,        \         /
+     `       O/ /       /O\        \
+             /\|/\.                `
+
+
+bash does not automaticly refresh aliases and other things in .bashrc
+(.bashrc (in ur home folder) has a lot of thing configuring bash, including adding all the aliases from .bash_aliases)
+it only get stuff from there when bash starts. 
+so to update things try running "source .bash_aliases" this makes bash refresh the config from this file
+then run gubby
+if that does not work open a new termial and run gubby
+
+if none of that works uhhhhh thats a problem
+good luck
